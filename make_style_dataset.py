@@ -84,7 +84,7 @@ def add_data(h5_file, image_dir, prefix, args):
       output_queue.task_done()
       num_written = num_written + 1
       if num_written % 100 == 0:
-        print 'Copied %d / %d images' % (num_written, num_images)
+        print('Copied %d / %d images' % (num_written, num_images))
 
   # Start the read workers.
   for i in xrange(args.num_workers):

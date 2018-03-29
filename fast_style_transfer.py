@@ -2,7 +2,6 @@
 Use a trained pastiche net to stylize images.
 '''
 
-from __future__ import print_function
 import os
 import argparse
 
